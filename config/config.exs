@@ -28,3 +28,7 @@ use Mix.Config
 # here (which is why it is important to import them last).
 #
 #     import_config "#{Mix.env}.exs"
+
+config :nadia, token: "296479124:AAGp9ldgrbOa6rn09Ogh2k8q0g5BvVrkiDE", recv_timeout: 10
+
+

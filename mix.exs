@@ -14,7 +14,7 @@ defmodule ContestBotTest.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger]]
+    [applications: [:logger, :nadia]]
   end
 
   # Dependencies can be Hex packages:
@@ -27,6 +27,6 @@ defmodule ContestBotTest.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:httpoison, "~> 0.10.0"}]
+    [{:nadia, "~> 0.4.1"}]
   end
 end
